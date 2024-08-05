@@ -1,0 +1,15 @@
+print('Welcome to Treasure Island.\nYour mission is to find the treasure!')
+first_choice = input('You are in the forest. Would you like to go left or right? ').lower()
+if first_choice == "right":
+    print("Game over.")
+else:
+    second_choice = input("Now you need to decide if you want to swim or wait. What do you choose? ").lower()
+    if second_choice == "swim":
+        print("Game over.")
+    else:
+        third_choice = input("You are facing three doors. Which one do you choose: red, blue or yellow? ").lower()
+        if third_choice == "blue" or "red":
+            print("Game over.")
+        else:
+            print("You win! Congrats!")
+
